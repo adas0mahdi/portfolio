@@ -12,32 +12,32 @@ function Navbar() {
                 <AioutlineHome className="icone active-nav"/>
             </a>
             <a href="#about">
-                <AioutlineHome className="icone"/>
+                <AioutlieUser className="icone"/>
             </a>
             <a href="#member">
-                <AioutlineHome className="icone"/>
+                <TiGroupOutLine className="icone"/>
             </a>
             <a href="#contact">
-                <AioutlineHome className="icone"/>
+                <BimessageRoundedDots className="icone"/>
             </a>
             <a href="#footer">
-                <AioutlineHome className="icone"/>
+                <BsArrowDownCircle className="icone"/>
             </a>
         </div>
     )
 }
 
 
- let Icons = document.querySelector('.navigation .icon');
- Icon.forEach((icon) => {
+ let Icons = document.querySelectorAll('.navigation .icon');
+ Icons.forEach((icon) => {
     icon.addEventListener("click" , () => {
         changeactive();
-        icon.classList.add("active-nav");
+      icon.classList.add("active-nav");
     });
  });
 
  function changeactive() {
-    Icon.forEach(icon => {
+    Icons.forEach(icon => {
         icon.classList.remove("active-nav")
     })
  }
