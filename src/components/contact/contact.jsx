@@ -1,6 +1,6 @@
-
+import React from "react";
 import "./contact.css";
-import { AiFillGithub } from "react-icons/bs";
+import { AiFillGithub } from "react-icons/bi";
 import { BsFacebook } from "react-icons/bs";
 import { AiFillTwitterCircle } from "react-icons/bs";
 
@@ -33,4 +33,3 @@ function Contact() {
 }
 
 export default Contact;
-
