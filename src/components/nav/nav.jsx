@@ -1,45 +1,30 @@
 import "./nav.css"
-import {AioutlineHome} from "react-icons/ai";
-import {AioutlieUser} from "react-icons/ai";
-import {TiGroupOutLine} from "react-icons/ti";
-import {BimessageRoundedDots} from "react-icons/bi";
+import {ImHome} from "react-icons/im";
+import {ImUserTie} from "react-icons/im";
+import {ImBug} from "react-icons/im";
+import {ImBubbles} from "react-icons/im";
 import {BsArrowDownCircle} from "react-icons/bs";
 
 function Navbar() {
-    return(
-        <div className="navigation">
-            <a href="#home">
-                <AioutlineHome className="icone active-nav"/>
-            </a>
-            <a href="#about">
-                <AioutlieUser className="icone"/>
-            </a>
-            <a href="#member">
-                <TiGroupOutLine className="icone"/>
-            </a>
-            <a href="#contact">
-                <BimessageRoundedDots className="icone"/>
-            </a>
-            <a href="#footer">
-                <BsArrowDownCircle className="icone"/>
-            </a>
-        </div>
-    )
-}
+    return (
+      <div className="navigation">
+        <a href="#home">
+          <ImHome className="icon active-nav" />
+        </a>
+        <a href="#about">
+          <ImUserTie className="icon" />
+        </a>
+        <a href="#members">
+          <ImBug className="icon" />
+        </a>
+        <a href="#contact">
+          <ImBubbles className="icon" />
+        </a>
+        <a href="#footer">
+          <BsArrowDownCircle className="icon" />
+        </a>
+      </div>
+    );
+  }
 
-
- let Icons = document.querySelectorAll('.navigation .icon');
- Icons.forEach((icon) => {
-    icon.addEventListener("click" , () => {
-        changeactive();
-      icon.classList.add("active-nav");
-    });
- });
-
- function changeactive() {
-    Icons.forEach(icon => {
-        icon.classList.remove("active-nav")
-    })
- }
-
- export default Navbar;
+export default Navbar;

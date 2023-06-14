@@ -11,7 +11,7 @@ function Header() {
                 <h2>front-End Web Developer</h2>
             </h3>
         </div>
-    )
+    );
 }
 
 export default Header;
