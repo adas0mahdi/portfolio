@@ -27,91 +27,76 @@
 }
 
 .button-container .btn.pri {
-    border: 2px solid var(--color-sec);
+    border: 2px solid var( --color-pri-Light);
 }
 
 .button-container .btn.pri:hover {
     border: none;
-    background-color: var(--color-sec);
+    background-color: var( --color-pri);
 }
 
 .button-container .btn.pri::before {
     position: absolute;
     content: "";
     height: 100%;
-    width: 0%;
+    width: 0;
     left: 0;
-    transform: 0.2s ease;
+    transition: width 0.2s ease;
+    background-color: rgba(225, 225, 225, 0.274);
 }
 
 .button-container .btn.pri::after {
     position: absolute;
     content: "";
     height: 100%;
-    width: 0%;
+    width: 0;
     left: 0;
-    transform: 0.4s ease;
-}
-
-.button-container .btn.pri:hover::before {
-    position: absolute;
-    content: "";
-    height: 100%;
-    width: 65%;
-    left: 0;
-    background-color: rgba(225, 225, 225, 0.274);
-}
-
-.button-container .btn.pri:hover::after {
-    position: absolute;
-    content: "";
-    height: 100%;
-    width: 50%;
-    left: 0;
+    transition: width 0.4s ease;
     background-color: rgba(225, 225, 225, 0.89);
 }
 
+.button-container .btn.pri:hover::before {
+    width: 65%;
+}
+
+.button-container .btn.pri:hover::after {
+    width: 50%;
+}
+
+
 .button-container .btn.sec {
-    background-color: var(--color-pri-light);
+    border: 2px solid var( --color-sec-Light);
 }
 
 .button-container .btn.sec:hover {
-    border: 2px solid var(--color-pri);
-    background-color: transparent;
+    border: none;
+    background-color: var(--color-sec);
 }
 
 .button-container .btn.sec::before {
     position: absolute;
     content: "";
     height: 100%;
-    width: 65%;
+    width: 0;
     left: 0;
-    border-color: rgba(255, 255, 255, 0.164);
-    transition: 0.2s ease;
+    transition: width 0.2s ease;
+    background-color: rgba(225, 225, 225, 0.274);
 }
 
 .button-container .btn.sec::after {
     position: absolute;
     content: "";
     height: 100%;
+    width: 0;
+    left: 0;
+    transition: width 0.4s ease;
+    background-color: rgba(225, 225, 225, 0.89);
+}
+
+.button-container .btn.sec:hover::before {
+    width: 65%;
+}
+
+.button-container .btn.sec:hover::after {
     width: 50%;
-    left: 0;
-    border-color: rgba(255, 255, 255, 0.89);
-    transition: 0.4s ease;
-}
-
-.button-container .btn.sec:hover::after {
-    position: absolute;
-    content: "";
-    height: 100%;
-    width: 0;
-    left: 0;
-}
-
-.button-container .btn.sec:hover::after {
-    position: absolute;
-    content: "";
-    height: 100%;
-    width: 0;
-    left: 0;
 }
