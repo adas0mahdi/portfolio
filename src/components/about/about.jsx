@@ -4,7 +4,7 @@ import Qualification from "../qualifications/qualifications"
 function About() {
     return(
         <div id="about" className="container about-container">
-                <Qualification/>
+                < Qualification />
         </div>
     )
 }

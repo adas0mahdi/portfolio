@@ -1,10 +1,10 @@
-import "./members"
-import React from "react";
+import "./members.css"; 
 
 const Members = () => {
   return (
     <div id="members" className="container members-container">
       <h1 className="member-txt">Project Name</h1>
+
       <div className="member member-1">
         <div className="member-img"></div>
         <div className="member-info">
@@ -13,7 +13,7 @@ const Members = () => {
           <h4 className="about">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem,
           </h4>
-          <a href="#project" className="contact-member">
+          <a href="#contact" className="contact-member">
             <span>Project</span>
           </a>
         </div>
@@ -27,7 +27,7 @@ const Members = () => {
           <h4 className="about">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem,
           </h4>
-          <a href="#project" className="contact-member">
+          <a href="#contact" className="contact-member">
             <span>Project</span>
           </a>
         </div>
@@ -41,7 +41,7 @@ const Members = () => {
           <h4 className="about">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem,
           </h4>
-          <a href="#project" className="contact-member">
+          <a href="#contact" className="contact-member">
             <span>Project</span>
           </a>
         </div>

@@ -1,7 +1,7 @@
 
 import React, { useEffect } from "react";
 import "./home.css";
-import img from "../props/image2.jpg";
+import img from "../props/avatar.jpg";
 import Buttons from "../button/button";
 import { BsMouse } from "react-icons/bs";
 

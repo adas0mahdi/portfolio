@@ -1,88 +1,192 @@
- .quali-text {
-    font-size: 20px;
+
+
+.quali-text {
+   font-size: 20px;
  }
- .qualification-container{
-    position: absolute;
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    height: 88%;
-    width: 90%;
-    overflow-x: scroll;
-    overflow-y: hidden;
-    margin-top: 15px;
-    user-select: none;
+ 
+ .qualification-container {
+   position: relative;
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   height: 80%;
+   width: 90%;
+   overflow-x: scroll;
+   overflow-y: hidden;
+   margin-top: 15px;
+   user-select: none;
+ }
+ 
+ .qualification {
+   position: relative;
+   height: 550px;
+   min-width: 40%;
+   background: rgb(6, 6, 31);
+   border-radius: 20px;
+   margin: 0 20px 0 0;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: center;
+ }
+ 
+ .qualification .content {
+   height: 85%;
+   width: 90%;
+   border-radius: 15px;
+   margin-top: 20px;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: contain;
+   border: 3px solid var(--color-sec-Light);
+ }
+ 
+ .qualification h1 {
+   font-size: 20px;
+   text-transform: uppercase;
+   margin-top: 20px;
+   border-bottom: 1px solid var(--color-pri);
+   /* border-radius: 5px; */
+ }
+ 
+ .qualification .content.html {
+   background-image: url("../props/html\ Qualification.png");
+ }
+ 
+ .qualification .content.react {
+   background-image: url("../props/react\ Qualification.png");
+ }
+ 
+ .qualification .content.javascript {
+   background-image: url("../props/js\ Qualification.png");
+ }
+ .qualification .content.canva {
+   background-image: url("../props/canva\ Qualification.png");
+ }
+ 
+ .qualification .content.css {
+   background-image: url("../props/CSS\ Qualification.png");
+ }
+ 
+ .qualification .content.tailwind {
+   background-image: url("../props/tailwind\ Qualification.png");
+ }
+ 
+ .qualification .content.bootstrap {
+   background-image: url("../props/boootstrap\ Qualification.png");
+ }
+ 
+ .qualification .content.mongoDB {
+   background-image: url("../props/mongodb\ Qualification.png");
+ }
+ 
+ .qualification .content.postman {
+   background-image: url("../props/postman\ Qualification.png");
+ }
+ 
+ .qualification .content.wordpress {
+   background-image: url("../props/wordpress\ Qualification.png");
+ }
+ .qualification .content.php {
+   background-image: url("../props/php\ Qualification.png");
  }
 
- .qualification-container .qualification{
-    position: relative;
-    height: 550px;
-    min-width: 40%;
-    background: rgb(6, 6, 31);
-    border-radius: 20px;
-    margin: 0 20px 0 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: center;
- }
 
- .qualification-container .qualification .content{
-    height: 85%;
-    width: 90%;
-    border-radius: 15px;
-    margin-top: 20px;
-    background-size: contain;
-    background-position: center;
- }
 
- .qualification-container .qualification h1{
-    font-size: 20px;
-    text-transform: uppercase;
-    margin-top: 20px;
- }
- .qualification-container .qualification .content .html{
-    background: url(../props/html.png);
-    background-position: center;
-    background-size: 60px;
- }
- .qualification-container .qualification .content .css{
-    background: url(../props/css.png);
-    background-position: center;
-    background-size: 60px;
- }
- .qualification-container .qualification .content .tailwind{
-    background: url(../props/Tailwind.png);
-    background-position: center;
-    background-size: 60px;
- }
- .qualification-container .qualification .content .react{
-    background: url(../props/react.png);
-    background-position: center;
-    background-size: 60px;
- }
- .qualification-container .qualification .content .javascript{
-    background: url(../props/js.png);
-    background-position: center;
-    background-size: 60px;
- }
- .qualification-container .qualification .content .bootstrap{
-    background: url(../props/bootstrap.png);
-    background-position: center;
-    background-size: 60px;
- }
- .qualification-container .qualification .content .mongoDB{
-    background: url(../props/mongoDB.png);
-    background-position: center;
-    background-size: 60px;
- }
- .qualification-container .qualification .content .postman{
-    background: url(../props/postman.png);
-    background-position: center;
-    background-size: 60px;
- }
- .qualification-container .qualification .content .wordpress{
-    background: url(../props/wordpress.png);
-    background-position: center;
-    background-size: 60px;
- }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .quali-text {
+  font-size: 20px;
+}
+
+.qualification-container {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 80%;
+  width: 90%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  margin-top: 15px;
+  user-select: none;
+}
+
+.qualification {
+  position: relative;
+  height: 550px;
+  min-width: 40%;
+  background: rgb(6, 6, 31);
+  border-radius: 20px;
+  margin: 0 20px 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.qualification .content {
+  height: 85%;
+  width: 90%;
+  border-radius: 15px;
+  margin-top: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.qualification h1 {
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+.qualification .content.html {
+  background-image: url("../props/html-removebg-preview.png");
+}
+
+.qualification .content.css {
+  background-image: url("../props/css.png");
+}
+
+.qualification .content.tailwind {
+  background-image: url("../props/tailwind.png");
+}
+
+.qualification .content.react {
+  background-image: url("../props/react.png");
+}
+
+.qualification .content.javascript {
+  background-image: url("../props/js.png");
+}
+
+.qualification .content.bootstrap {
+  background-image: url("../props/bootstrap.png");
+}
+
+.qualification .content.mongoDB {
+  background-image: url("../props/mongoDB.png");
+}
+
+.qualification .content.postman {
+  background-image: url("../props/postman.png");
+}
+
+.qualification .content.wordpress {
+  background-image: url("../props/wordpress.png");
+} */
