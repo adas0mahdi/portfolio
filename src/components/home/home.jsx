@@ -26,7 +26,7 @@ function Home() {
           <span className="circle"></span>
           <span className="circle"></span>
         </div>
-
+ 
         <img src={img} alt="" />
       </div>
 

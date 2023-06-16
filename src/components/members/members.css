@@ -2,6 +2,7 @@
     font-size: 20px;
     top: 10px;
     font-weight: 100;
+    
   }
   
   .members-container {
@@ -34,7 +35,7 @@
     background: url(../props/avatar.jpg);
     background-size: cover;
     background-position: center;
-    border: 2px solid var(--color-sec-light);
+    border: 2px solid var(--color-sec-Light);
   }
   
   .members-container .member .member-info {
@@ -62,7 +63,7 @@
   }
   
   .members-container .member .member-info .contact-member {
-    background: var(--color-sec-light);
+    background: var(--color-sec-Light);
     padding: 17px 35px;
     font-size: 18px;
     margin-top: 50px;
@@ -70,12 +71,15 @@
     position: absolute;
     transition: 0.1s ease;
   }
-  
   .members-container .member .member-info .contact-member span {
-    text-transform: capitalize;
+    text-transform: uppercase;
   }
-  
   .members-container .member .member-info .contact-member:hover {
     background: transparent;
-    border: 2px solid var(--color-sec-light);
+    border: 2px solid var(--color-sec-Light);
   }
+  
+  .members-container .member:hover {
+  background: rgba(225, 225, 225, 0.096);
+  transform: scale(1.1);
+ }

@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:300&display=swap");
 
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -15,7 +15,7 @@ body {
     background: rgb(2, 2, 26);
     min-height: 100vh;
     font-family: 'Inter', sans-serif;
-    animation: move Is Linear infinite forwards;
+    animation: move 1s Linear infinite forwards;
 }
 
 html{
