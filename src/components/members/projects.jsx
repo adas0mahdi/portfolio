@@ -1,8 +1,8 @@
-import "./members.css"; 
+import "./projects.css"; 
 
-const Members = () => {
+const projects = () => {
   return (
-    <div id="members" className="container members-container">
+    <div id="projects" className="container projects-container">
       <h1 className="member-txt">Project Name</h1>
 
       <div className="member member-1">
@@ -50,4 +50,4 @@ const Members = () => {
   );
 };
 
-export default Members;
+export default projects;

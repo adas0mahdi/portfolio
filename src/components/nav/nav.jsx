@@ -21,8 +21,8 @@ function Navbar() {
       <a href="#about" onClick={() => handleNavClick("about")}>
         <ImUserTie className={`icon ${activeNav === "about" ? "active-nav" : ""}`} />
       </a>
-      <a href="#members" onClick={() => handleNavClick("members")}>
-        <ImBug className={`icon ${activeNav === "members" ? "active-nav" : ""}`} />
+      <a href="#projects" onClick={() => handleNavClick("projects")}>
+        <ImBug className={`icon ${activeNav === "projects" ? "active-nav" : ""}`} />
       </a>
       <a href="#contact" onClick={() => handleNavClick("contact")}>
         <ImBubbles className={`icon ${activeNav === "contact" ? "active-nav" : ""}`} />
@@ -62,7 +62,7 @@ export default Navbar;
 //         <a href="#about">
 //           <ImUserTie className="icon" />
 //         </a>
-//         <a href="#members">
+//         <a href="#projects">
 //           <ImBug className="icon" />
 //         </a>
 //         <a href="#contact">
