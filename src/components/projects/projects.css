@@ -2,7 +2,7 @@
     font-size: 20px;
     top: 10px;
     font-weight: 100;
-    
+    margin-bottom: 10px;
   }
   
   .projects-container {
@@ -13,6 +13,7 @@
     align-items: flex-start;
     min-height: 100vh;
     margin-top: 100px;
+   
   }
   
   .projects-container .project {
@@ -36,6 +37,7 @@
     background-size: cover;
     background-position: center;
     border: 2px solid var(--color-sec-Light);
+    cursor: pointer;
   }
   
   .projects-container .project .project-info {
