@@ -1,4 +1,4 @@
-.member-txt {
+.project-txt {
     font-size: 20px;
     top: 10px;
     font-weight: 100;
@@ -15,7 +15,7 @@
     margin-top: 100px;
   }
   
-  .projects-container .member {
+  .projects-container .project {
     position: relative;
     display: flex;
     justify-content: flex-start;
@@ -27,8 +27,8 @@
     padding: 20px;
     border-radius: 50px;
   }
-  
-  .projects-container .member .member-img {
+
+  .projects-container .project .project-img {
     height: 300px;
     width: 300px;
     border-radius: 40px;
@@ -38,31 +38,31 @@
     border: 2px solid var(--color-sec-Light);
   }
   
-  .projects-container .member .member-info {
+  .projects-container .project .project-info {
     margin-left: 50px;
     font-family: "Open Sans Condensed", sans-serif;
     max-width: 50%;
   }
   
-  .projects-container .member .member-info .name {
+  .projects-container .project .project-info .name {
     font-size: 40px;
     font-weight: 500;
     letter-spacing: 2px;
   }
   
-  .projects-container .member .member-info .position {
+  .projects-container .project .project-info .languageUsed {
     font-size: 14px;
     font-weight: 400;
     letter-spacing: 2px;
   }
   
-  .projects-container .member .member-info .about {
+  .projects-container .project .project-info .about {
     margin-top: 40px;
     font-weight: 100;
     font-size: 17px;
   }
   
-  .projects-container .member .member-info .contact-member {
+  .projects-container .project .project-info .contact-project {
     background: var(--color-sec-Light);
     padding: 17px 35px;
     font-size: 18px;
@@ -71,15 +71,15 @@
     position: absolute;
     transition: 0.1s ease;
   }
-  .projects-container .member .member-info .contact-member span {
+  .projects-container .project .project-info .contact-project span {
     text-transform: uppercase;
   }
-  .projects-container .member .member-info .contact-member:hover {
+  .projects-container .project .project-info .contact-project:hover {
     background: transparent;
     border: 2px solid var(--color-sec-Light);
   }
   
-  .projects-container .member:hover {
+  .projects-container .project:hover {
   background: rgba(225, 225, 225, 0.096);
   transform: scale(1.1);
  }
