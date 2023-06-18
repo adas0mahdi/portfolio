@@ -1,9 +1,10 @@
 .quali-text {
    font-size: 20px;
+   top: 10px;
  }
  
  .qualification-container {
-   position: relative;
+   position: absolute;
    display: flex;
    justify-content: flex-start;
    align-items: center;
@@ -15,7 +16,7 @@
    user-select: none;
  }
  
- .qualification {
+ .qualification-container .qualification {
    position: relative;
    height: 550px;
    min-width: 40%;
@@ -28,7 +29,7 @@
    align-items: center;
  }
  
- .qualification .content {
+ .qualification-container .qualification .content {
    height: 85%;
    width: 90%;
    border-radius: 15px;
@@ -39,7 +40,7 @@
    border: 3px solid var(--color-sec-Light);
  }
  
- .qualification h1 {
+ .qualification-container .qualification h1 {
    font-size: 20px;
    text-transform: uppercase;
    margin-top: 20px;
@@ -47,46 +48,68 @@
    /* border-radius: 5px; */
  }
  
- .qualification .content.html {
+ .qualification-container .qualification .content.html {
    background-image: url("../props/html\ Qualification.png");
+   background-position: center;
+
  }
  
- .qualification .content.react {
+ .qualification-container .qualification .content.react {
    background-image: url("../props/react\ Qualification.png");
+   background-position: center;
+ 
  }
  
- .qualification .content.javascript {
+ .qualification-container .qualification .content.javascript {
    background-image: url("../props/js\ Qualification.png");
+   background-position: center;
+   background-size: 60px;
  }
- .qualification .content.canva {
+ .qualification-container .qualification .content.canva {
    background-image: url("../props/canva\ Qualification.png");
+   background-position: center;
+
  }
  
- .qualification .content.css {
+ .qualification-container .qualification .content.css {
    background-image: url("../props/CSS\ Qualification.png");
+   background-position: center;
+ 
  }
  
- .qualification .content.tailwind {
+ .qualification-container .qualification .content.tailwind {
    background-image: url("../props/tailwind\ Qualification.png");
+   background-position: center;
+
  }
  
- .qualification .content.bootstrap {
+ .qualification-container .qualification .content.bootstrap {
    background-image: url("../props/boootstrap\ Qualification.png");
+   background-position: center;
+ 
  }
  
- .qualification .content.mongoDB {
+ .qualification-container .qualification .content.mongoDB {
    background-image: url("../props/mongodb\ Qualification.png");
+   background-position: center;
+
  }
  
- .qualification .content.postman {
+ .qualification-container .qualification-container .qualification .content.postman {
    background-image: url("../props/postman\ Qualification.png");
+   background-position: center;
+ 
  }
  
- .qualification .content.wordpress {
+ .qualification-container .qualification .content.wordpress {
    background-image: url("../props/wordpress\ Qualification.png");
+   background-position: center;
+ 
  }
- .qualification .content.php {
+ .qualification-container .qualification .content.php {
    background-image: url("../props/php\ Qualification.png");
+   background-position: center;
+   
  }
 
 
