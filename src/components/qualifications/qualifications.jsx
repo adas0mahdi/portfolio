@@ -1,12 +1,47 @@
-import "./qualifications.css";
+import React, { useRef } from 'react';
+import './qualifications.css';
 
 const Qualification = () => {
+  const qualificationContainerRef = useRef(null);
+  const mouseDownRef = useRef(false);
+  const startXRef = useRef(0);
+  const scrollLeftRef = useRef(0);
+
+  const handleMouseDown = (e) => {
+    mouseDownRef.current = true;
+    startXRef.current = e.pageX - qualificationContainerRef.current.offsetLeft;
+    scrollLeftRef.current = qualificationContainerRef.current.scrollLeft;
+  };
+
+  const handleMouseMove = (e) => {
+    if (!mouseDownRef.current) return;
+    e.preventDefault();
+    const x = e.pageX - qualificationContainerRef.current.offsetLeft;
+    const walk = x - startXRef.current;
+    qualificationContainerRef.current.scrollLeft = scrollLeftRef.current - walk;
+  };
+
+  const handleMouseUp = () => {
+    mouseDownRef.current = false;
+  };
+
   return (
     <div>
       <span className="quali-text">My Qualification</span>
-      <div className="qualification-container">
+      <div
+        className="qualification-container"
+        ref={qualificationContainerRef}
+        onMouseDown={handleMouseDown}
+        onMouseMove={handleMouseMove}
+        onMouseUp={handleMouseUp}
+        onMouseLeave={handleMouseUp}
+      >
+        
+        
 
-        <div className="qualification">
+      <div className="qualification">
+
+        
           <div className="content react"></div>
           <h1>react</h1>
         </div>
@@ -14,12 +49,10 @@ const Qualification = () => {
           <div className="content mongoDB"></div>
           <h1>mongoDB</h1>
         </div>
-        
         <div className="qualification">
           <div className="content canva"></div>
           <h1>canva</h1>
         </div>
-
         <div className="qualification">
           <div className="content postman"></div>
           <h1>postman</h1>
@@ -52,23 +85,13 @@ const Qualification = () => {
           <div className="content php"></div>
           <h1>php</h1>
         </div>
+        
       </div>
     </div>
   );
 };
 
 export default Qualification;
-
-
-
-
-
-
-
-
-
-
-
 
 
 
