@@ -101,7 +101,7 @@
 }
 
 .home-container .logo .main-img.active .circle:nth-child(6) {
-    background: url(../props/tailwind.png);
+    background: url(../props/Tailwind.png);
     background-size: cover;
     background-position: center;
     position: absolute;
