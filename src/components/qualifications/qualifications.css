@@ -110,18 +110,3 @@
   background-position: center;
 }
 
-
-.swipe-buttons {
-  display: flex;
-  justify-content: center;
-  margin-top: 10px;
-}
-
-.swipe-button {
-  padding: 8px 12px;
-  margin: 0 5px;
-  background-color: #ddd;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
