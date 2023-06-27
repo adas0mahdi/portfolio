@@ -37,11 +37,11 @@ const Qualification = () => {
         onMouseLeave={handleMouseUp}
       >
         
-        
-
-      <div className="qualification">
-
-        
+        <div className="qualification">
+          <div className="content wordpress"></div>
+          <h1>wordpress</h1>
+        </div>
+        <div className="qualification">
           <div className="content react"></div>
           <h1>react</h1>
         </div>
@@ -76,10 +76,6 @@ const Qualification = () => {
         <div className="qualification">
           <div className="content bootstrap"></div>
           <h1>bootstrap</h1>
-        </div>
-        <div className="qualification">
-          <div className="content wordpress"></div>
-          <h1>wordpress</h1>
         </div>
         <div className="qualification">
           <div className="content php"></div>

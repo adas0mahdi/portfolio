@@ -5,6 +5,7 @@
     margin-top: 80px;
     width: 60%;
     padding: 0;
+    
 }
 
 .button-container .btn {
@@ -99,5 +100,51 @@
 }
 
 .button-container .btn.sec:hover::after {
+    width: 50%;
+}
+
+
+
+/* meddel */
+.button-container .btm {
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+}
+
+.button-container .btm.med {
+    border: 2px solid var( --color-med-Light);
+}
+
+.button-container .btm.med:hover {
+    border: none;
+    background-color: var(--color-med);
+}
+
+.button-container .btm.med::before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 0;
+    left: 0;
+    transition: width 0.2s ease;
+    background-color: rgba(225, 225, 225, 0.274);
+}
+
+.button-container .btm.med::after {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 0;
+    left: 0;
+    transition: width 0.4s ease;
+    background-color: rgba(225, 225, 225, 0.89);
+}
+
+.button-container .btm.med:hover::before {
+    width: 65%;
+}
+
+.button-container .btm.med:hover::after {
     width: 50%;
 }
