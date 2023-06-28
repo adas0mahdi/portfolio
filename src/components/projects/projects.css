@@ -40,13 +40,13 @@
   }
   
   .projects-container .project .project-info .name {
-    font-size: 40px;
+    font-size: 25px;
     font-weight: 500;
     letter-spacing: 2px;
   }
   
   .projects-container .project .project-info .languageUsed {
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 400;
     letter-spacing: 2px;
   }
@@ -113,7 +113,17 @@
   background-position: center;
 }
 .projects-container .project  .img-f{
-  background: url(../props/avatar.jpg);
+  background: url(../props/projects/kodeledger.png);
+  background-size: cover;
+  background-position: center;
+}
+.projects-container .project  .img-g{
+  background: url(../props/projects/feedback.png);
+  background-size: cover;
+  background-position: center;
+}
+.projects-container .project  .img-h{
+  background: url(../props/projects/newsgrid.png);
   background-size: cover;
   background-position: center;
 }
