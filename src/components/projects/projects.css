@@ -53,6 +53,7 @@
   
   .projects-container .project .project-info .about {
     margin-top: 40px;
+    margin-bottom: 40px;
     font-weight: 100;
     font-size: 17px;
   }
@@ -61,7 +62,6 @@
     background: var(--color-sec-Light);
     padding: 17px 35px;
     font-size: 18px;
-    margin-top: 50px;
     border-radius: 50px;
     position: absolute;
     transition: 0.1s ease;
@@ -88,27 +88,27 @@
 }
 
 .projects-container .project  .img-a{
-  background: url(../props/avatar.jpg);
+  background: url(../props/projects/zoon.png);
   background-size: cover;
   background-position: center;
 }
 .projects-container .project  .img-b{
-  background: url(../props/avatar.jpg);
+  background: url(../props/projects/hotel.png);
   background-size: cover;
   background-position: center;
 }
 .projects-container .project  .img-c{
-  background: url(../props/avatar.jpg);
+  background: url(../props/projects/resto.png);
   background-size: cover;
   background-position: center;
 }
 .projects-container .project  .img-d{
-  background: url(../props/avatar.jpg);
+  background: url(../props/projects/searchapp.png);
   background-size: cover;
   background-position: center;
 }
 .projects-container .project  .img-e{
-  background: url(../props/avatar.jpg);
+  background: url(../props/projects/shop.png);
   background-size: cover;
   background-position: center;
 }

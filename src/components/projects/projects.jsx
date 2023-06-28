@@ -8,10 +8,10 @@ const Projects = () => {
       <div className="project ">
         <div className="project-img img-a"></div>
         <div className="project-info">
-          <h1 className="name">Project Name</h1>
+          <h1 className="name">CineZone</h1>
           <h3 className="languageUsed">HTML, CSS , JS</h3>
           <h4 className="about">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos quae omnis vitae, iusto mollitia eligendi nesciunt non consequuntur aliquid! Sint?,
+          CineZone: Discover, Connect, and Experience Movies like Never Before! Unleash your passion for films, explore genres, watch trailers, and engage with a community of movie enthusiasts. Join CineZone today and embark on an unforgettable cinematic journey!
           </h4>
           <a href="#contact" className="contact-project">
             <span>Project</span>
