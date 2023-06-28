@@ -1,9 +1,11 @@
 .quali-text {
-    font-size: 20px;
-    top: 10px;
-    font-weight: 100;
-    margin-bottom: 10px;
-}
+  margin: 0 auto;
+  font-size: 30px;
+  font-family: "Open Sans Condensed";
+  font-weight: 400;
+  margin-bottom: 20px;
+  color: var(--color-pri);
+} 
 
 .qualification-container {
   position: relative;
