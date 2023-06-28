@@ -16,7 +16,6 @@
     align-items: center;
     min-height: 100vh;
     margin-top: 100px;
-   
   }
   
   .projects-container .project {
@@ -32,16 +31,7 @@
     border-radius: 50px;
   }
 
-  .projects-container .project .project-img {
-    height: 300px;
-    width: 300px;
-    border-radius: 40px;
-    background: url(../props/avatar.jpg);
-    background-size: cover;
-    background-position: center;
-    border: 2px solid var(--color-sec-Light);
-    cursor: pointer;
-  }
+ 
   
   .projects-container .project .project-info {
     margin-left: 50px;
@@ -87,4 +77,15 @@
   .projects-container .project:hover {
   background: rgba(225, 225, 225, 0.096);
   transform: scale(1.1);
- }
+  }
+  
+  .projects-container .project .project-img {
+  height: 300px;
+  width: 300px;
+  border-radius: 40px;
+  background: url(../props/avatar.jpg);
+  background-size: cover;
+  background-position: center;
+  border: 2px solid var(--color-sec-Light);
+  cursor: pointer;
+}
