@@ -72,6 +72,24 @@ body::after{
     background: rgb(183, 0, 255);
     filter: blur(150px);
 }
+.bg-circle3{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 200px;
+    width: 200px;
+    background: rgb(0, 225, 255);
+    filter: blur(140px);
+}
+.bg-circle4{
+    position: fixed;
+    bottom: 100px;
+    left:  250px;
+    height: 200px;
+    width: 200px;
+    background: rgb(183, 0, 255);
+    filter: blur(140px);
+}
 
 .container{
     width: var(--pc-width);

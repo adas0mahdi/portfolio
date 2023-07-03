@@ -12,6 +12,8 @@ function WebContent() {
     <>
       <div className="bg-circle1"></div>
       <div className="bg-circle2"></div>
+      <div className="bg-circle3"></div>
+      <div className="bg-circle4"></div>
       <Header />
       <div>
         <Navbar />
