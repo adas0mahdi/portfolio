@@ -127,3 +127,24 @@
   background-size: cover;
   background-position: center;
 }
+
+
+@media (320px <=  width <= 1208px) {
+    .projects-container .project {
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 35px;
+      }
+    .projects-container .project .project-info {
+      margin-bottom: 20px;
+        max-width: none;
+      }
+      .projects-container .project .project-info .name {
+        margin-top: 10px;
+        
+      }
+      .projects-container .project .project-info .contact-project {
+        position: relative;
+        margin-bottom: 20px;
+      }
+}

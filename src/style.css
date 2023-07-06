@@ -108,3 +108,8 @@ body::after{
         width: var(--phone-width);
     }
 }
+@media (max-width: 768px) {
+    .container{
+        width: var( --tab-width );
+    }
+}

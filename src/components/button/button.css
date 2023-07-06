@@ -8,6 +8,7 @@
     
 }
 
+
 .button-container .btn {
     height: 80px;
     width: 200px;
@@ -148,3 +149,16 @@
 .button-container .btm.med:hover::after {
     width: 50%;
 }
+
+
+@media (320px <=  width <=  1200px) {
+    .button-container {
+        gap: 20px;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+}
+
