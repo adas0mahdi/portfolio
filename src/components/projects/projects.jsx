@@ -36,7 +36,7 @@ const Projects = () => {
           <h1 className="name">feedback</h1>
           <h3 className="languageUsed">PHP</h3>
           <h4 className="about">
-          Enhance your feedback management with feedback! Collect, analyze, and utilize valuable insights to improve your products or services. Streamline the feedback process and empower your decision-making. With feedback, listen to your audience and elevate customer satisfaction effortlessly.
+          Elevate your feedback management with feedback! Gain valuable insights, improve your offerings, and make informed decisions. Streamline the feedback process, listen to your customers, and enhance satisfaction effortlessly.
           </h4>
           <a href="https://github.com/adas0mahdi/feedback.php.git" className="contact-project">
             <span>Project</span>
@@ -62,7 +62,7 @@ const Projects = () => {
           <h1 className="name">KodeResto</h1>
           <h3 className="languageUsed">HTML, CSS</h3>
           <h4 className="about">
-          Embark on a gastronomic journey at KodeResto! Explore a tantalizing menu, savor delightful flavors, and immerse yourself in a captivating dining atmosphere. With impeccable service and a commitment to culinary excellence, KodeResto promises a dining experience that will leave a lasting impression. Discover the perfect blend of taste, ambiance, and hospitality at KodeResto.
+              Experience culinary perfection at KodeResto! Discover tantalizing flavors, an enchanting atmosphere, and impeccable service. Indulge in a memorable dining adventure that blends taste, ambiance, and hospitality.
           </h4>
           <a href="https://github.com/adas0mahdi/08_KodeResto.git" className="contact-project">
             <span>Project</span>
@@ -75,7 +75,7 @@ const Projects = () => {
           <h1 className="name">image search engine</h1>
           <h3 className="languageUsed">HTML, CSS, JS</h3>
           <h4 className="about">
-          Discover and Unleash the Power of Visual Exploration with the Image Search Engine. Find the perfect images based on your preferences using advanced algorithms. Effortlessly search, refine, and explore a vast collection of visually similar images. Fuel your creativity, research, and inspiration with the Image Search Engine today!
+          Unleash the power of visual exploration with our Image Search Engine. Find perfect images effortlessly, refine your search, and fuel your creativity. Discover the world through visuals! Try it now!
           </h4>
           <a href="https://github.com/adas0mahdi/image-search-engine.git" className="contact-project">
             <span>Project</span>
@@ -88,7 +88,7 @@ const Projects = () => {
           <h1 className="name">KodeShop</h1>
           <h3 className="languageUsed">HTML, CSS, JS</h3>
           <h4 className="about">
-          Experience seamless online shopping with KodeShop! Discover a world of products, from electronics to fashion, all in one place. Enjoy secure transactions, efficient order management, and exceptional customer support. Elevate your shopping experience with KodeShop today!
+          Shop seamlessly with KodeShop! Explore a wide range of products, from electronics to fashion, all in one place. Enjoy secure transactions, efficient order management, and exceptional customer support. Elevate your shopping experience today!
           </h4>
           <a href="https://github.com/adas0mahdi/KodaShop-2023.git" className="contact-project">
             <span>Project</span>
@@ -101,7 +101,7 @@ const Projects = () => {
           <h1 className="name">Kodeledger</h1>
           <h3 className="languageUsed">HTML, CSS</h3>
           <h4 className="about">
-          Master your finances with Kodeledger! Simplify bookkeeping, track transactions, and gain financial clarity effortlessly. Stay organized and in control with this intuitive ledger management system. Experience seamless financial management with Kodeledger and take charge of your financial success.
+          Take control of your finances with Kodeledger! Simplify bookkeeping, track transactions, and gain financial clarity effortlessly. Experience seamless financial management and empower your financial success today!
           </h4>
           <a href="https://github.com/adas0mahdi/04_Kodeledger.git" className="contact-project">
             <span>Project</span>
@@ -114,7 +114,7 @@ const Projects = () => {
           <h1 className="name">NewsGrid</h1>
           <h3 className="languageUsed">HTML, CSS</h3>
           <h4 className="about">
-          NewsGrid, the ultimate news website template. Stay up-to-date with the latest news in a visually stunning and user-friendly environment. Explore diverse categories, dive into captivating articles, and enjoy a seamless reading experience across all devices. NewsGrid - your go-to destination for news that matters.
+          Stay updated with NewsGrid, the ultimate news website template. Explore captivating articles, diverse categories, and seamless reading across all devices. Your go-to destination for news that matters.
           </h4>
           <a href="https://github.com/adas0mahdi/NewsGrid.git" className="contact-project">
             <span>Project</span>

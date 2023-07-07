@@ -64,7 +64,36 @@
 }
 
 
-@media (481px <=  width <= 769px) {
+
+
+@media (320px <=  width <= 1200px) {
+.contact-container .contact {
+    height: 200px;
+    
+}
+} 
+
+@media (320px <=  width <=  768px) {
+.contact-container .contact {
+    width: 80%;
+}
+.contact-container .contact-links {
+    flex-direction: column;
+    gap: 10px;
+}
+} 
+
+/* 
+320px — 480px: Mobile devices.
+481px — 768px: iPads, Tablets.
+769px — 1024px: Small screens, laptops.
+1025px — 1200px: Desktops, large screens.
+1201px and more — Extra large screens, TV. */
+
+
+
+
+/* @media (481px <=  width <= 769px) {
     .contact-container .contact h2 {
         font-size: 15px;
     }
@@ -73,6 +102,6 @@
     .contact-container .contact h2 {
         font-size: 10px;
     }
-} 
+}  */
 
 
