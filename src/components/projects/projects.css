@@ -127,6 +127,11 @@
   background-size: cover;
   background-position: center;
 }
+.projects-container .project  .img-i{
+  background: url(../props/projects/Play.png);
+  background-size: cover;
+  background-position: center;
+}
 
 
 @media (320px <=  width <= 1208px) {

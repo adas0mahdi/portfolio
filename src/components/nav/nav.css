@@ -54,7 +54,7 @@
 
 @media (max-width: 800px) {
       .navigation {
-        top: 92%;
+        top: 92.5%;
         bottom: 13%;
         left: auto; /* Remove the left property */
         width: 100%;
