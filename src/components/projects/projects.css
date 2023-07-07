@@ -1,7 +1,7 @@
 .project-txt {
   margin: 0 auto;
   font-size: 30px;
-  font-family: "Open Sans Condensed";
+  font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   margin-bottom: 20px;
   color: var(--color-pri);
@@ -35,7 +35,7 @@
   
   .projects-container .project .project-info {
     margin-left: 50px;
-    font-family: "Open Sans Condensed", sans-serif;
+    font-family: 'Roboto', sans-serif;
     max-width: 50%;
   }
   

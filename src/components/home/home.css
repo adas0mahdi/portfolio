@@ -157,7 +157,7 @@
     opacity: 0.8;
     padding-bottom: 5px;
     border-bottom: 2px solid var(--color-pri);
-    font-family: "Open Sans Condensed", sans-serif; 
+    font-family: 'Open Sans', sans-serif;
 }
 
 .home-container h2 p {
@@ -165,7 +165,7 @@
     opacity: 1;
     font-weight: 100;
     margin-top: 1px;
-    font-family: "Open Sans Condensed", sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .scroll-down {

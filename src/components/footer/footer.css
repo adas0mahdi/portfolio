@@ -10,7 +10,7 @@
 }
 
 .footer-container h1 {
-    font-family: "Open Sans Condensed", sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 100;
     font-size: 25px;
     margin: 0 auto;
@@ -19,7 +19,7 @@
 }
 
 .footer-container h2 {
-    font-family: "Open Sans Condensed";
+    font-family: 'Roboto', sans-serif;
     font-weight: 100;
     font-size: 20px;
     margin-top: 15px;
